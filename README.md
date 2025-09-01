@@ -39,8 +39,7 @@ NORMALIZATION PROBLEM
 
 	[]: X = np.random.rand(5, 5)                                 # Create a random 5x5 array
 		print("Original X:\n", X)
-
-	[]: X_normalized = (X - X.mean()) / X.std()                  # Normalize using (X - mean)/std
+  		X_normalized = (X - X.mean()) / X.std()                  # Normalize using (X - mean)/std
     	print("Normalized X:\n", X_normalized)
 
 	[]: np.save("X_normalized.npy", X_normalized)                # Save the normalized array
