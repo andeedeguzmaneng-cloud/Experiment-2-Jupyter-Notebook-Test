@@ -24,7 +24,14 @@ Getting Started with Jupyter Noteboook
 
 _____________________________________
 
+--- IMPORTING THE LIBRARY ---
+Before starting with the problems, the NumPy library must be imported since both problems require it:
 
+--- CODE ---
+
+	import numpy as np    # Import NumPy library
+
+This import statement should be placed at the very beginning of the notebook so it applies to all the code cells that follow.
 
 Problem # 1. 
 
@@ -35,10 +42,9 @@ NORMALIZATION PROBLEM
 
 		NORMALIZATION PROBLEM   # Markdown heading for the problem
 
-	[]: import numpy as np                                       # Import NumPy library
-
 	[]: X = np.random.rand(5, 5)                                 # Create a random 5x5 array
 		print("Original X:\n", X)
+  
   		X_normalized = (X - X.mean()) / X.std()                  # Normalize using (X - mean)/std
     	print("Normalized X:\n", X_normalized)
 
