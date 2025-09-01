@@ -25,6 +25,7 @@ Getting Started with Jupyter Noteboook
 _____________________________________
 
 --- IMPORTING THE LIBRARY ---
+
 Before starting with the problems, the NumPy library must be imported since both problems require it:
 
 --- CODE ---
