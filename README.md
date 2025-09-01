@@ -24,15 +24,19 @@ Getting Started with Jupyter Noteboook
 
 _____________________________________
 
---- IMPORTING THE LIBRARY ---
+IMPORTING THE LIBRARY
 
-Before starting with the problems, the NumPy library must be imported since both problems require it:
+Before starting with the problems, the NumPy library must be imported because both problems make use of NumPy arrays (ndarray) and its built-in functions.
+
+	* In the Normalization Problem, NumPy is needed to create the random 5×5 array, calculate the mean and standard deviation, and save the result.
+
+	* In the Divisible by 3 Problem, NumPy is needed to generate the squares of integers, reshape them into a 10×10 array, filter values divisible by 3, and save the result.
 
 --- CODE ---
 
-	import numpy as np    # Import NumPy library
+	[]: import numpy as np    # Import NumPy library
 
-This import statement should be placed at the very beginning of the notebook so it applies to all the code cells that follow.
+_____________________________________
 
 Problem # 1. 
 
